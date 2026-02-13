@@ -6,7 +6,7 @@ WORKDIR /app
 # Copy the files from the host file system to the image file system
 COPY . /app
 
-FROM python:3.11
+FROM python:3.11-slim
 
 WORKDIR /app   
 
